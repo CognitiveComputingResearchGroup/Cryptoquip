@@ -1,3 +1,4 @@
+#! /usr/bin/python2.7
 import string, re, random
 from collections import Counter
 
