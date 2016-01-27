@@ -538,7 +538,7 @@ if __name__ == '__main__':
     filename = raw_input('Puzzle file name: ')
     ref_file = raw_input('Reference dictionary file name (default ACDoyle.txt): ')
     if not ref_file:
-        ref_file = '/home/stephen/PythonStuff/TextTools/data/ACDoyle.txt'
+        ref_file = 'data/ACDoyle.txt'
     cq = load_puzzle(filename)
     ref = load_ref(ref_file)
     print('\nLoading reference dictionary...')
