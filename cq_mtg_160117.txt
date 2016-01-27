@@ -1,0 +1,19 @@
+1. Human solution
+    a. Trial and error
+    b. Character substitution
+    c. Word-word comparison
+    d. Character frequency
+    e. Word start character frequency
+    f. Word end character frequency
+    g. Lexical reference
+    h. Syntactic reference
+    i. Morphological reference
+    j. Linguistic context
+    k. Semantic reference
+2. Computational solution
+    a. Character substitution by frequency
+    b. Word list by length
+    c. Statistical scoring of possible substitutions
+    d. Lexical lookup (spell check)
+    e. Brute force search
+3. LIDA solution
