@@ -1,0 +1,6 @@
+<launch>
+    <node name="action_selection" pkg="cqlida" type="agent_starter.py" required="true" args="-m ActionSelection -f $(find cqlida)/configs/agent.conf"/>
+    <node name="global_workspace" pkg="cqlida" type="agent_starter.py" required="true" args="-m GlobalWorkspace -f $(find cqlida)/configs/agent.conf"/>
+    <node name="perceptual_associative_memory" pkg="cqlida" type="agent_starter.py" required="true" args="-m PerceptualAssociativeMemory -f $(find cqlida)/configs/agent.conf"/>
+    <node name="sensory_memory" pkg="cqlida" type="agent_starter.py" required="true" args="-m SensoryMemory -f $(find cqlida)/configs/agent.conf"/>
+</launch>

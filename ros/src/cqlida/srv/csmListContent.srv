@@ -1,0 +1,3 @@
+int32 max_results
+---
+cqlida/KeyValues[] content
