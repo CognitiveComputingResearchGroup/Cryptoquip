@@ -18,7 +18,7 @@ class TalkerModule(FrameworkModule):
         super(TalkerModule, self).add_publisher(TOPIC)
 
     def call(self):
-        next_msg = "what the hell is going on"#self.create_next_msg("talker", "message")
+        next_msg = "random message"#self.create_next_msg("talker", "message")
         logger.info("Sending message: {}".format(next_msg))
         self.publishers[TOPIC.topic_name].publish(next_msg)
 
