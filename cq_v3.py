@@ -160,6 +160,10 @@ def get_word_internal_freqs(text):
         Return internal word frequencies (neither at the start
         nor at the end of words) for characters in text.
     """
+    #
+    # !!!! This function not used; error below since words is never referenced
+    #   after assignment
+    #
     keys = get_keys()
     no_punc = [ c if c in keys else ' ' for c in text.lower() ]
     words = [ w for w in ''.join(no_punc).split() if len(w) > 2 ]
@@ -284,12 +288,12 @@ class Cryptoquip(object):
         self._frm = ''          # Arguments for the call to string.maketrans():
         self._to = ''           #    _trtab = string.maketrans(_frm,_to)
         if not self.clue_off:
-            self.set(clue[0], clue[1])
+            self.set(clue[0], clue[1]) ## FAILS FOR DEFAULT VALUE OF clue, clue_off
     
     def _update(self):
         "Update translation dictionary after a set/unset event."
         if self.clue_off:
-            self.unset(clue[0])
+            self.unset(self.clue[0])
         self._frm = "".join(self.trans_dict.keys())
         self._to = "".join(self.trans_dict.values())
         self._trtab = string.maketrans(self._frm,self._to)

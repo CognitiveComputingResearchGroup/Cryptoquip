@@ -1,0 +1,53 @@
+Introspective Thought Building (ITB)
+Select a puzzle-solving context.
+    Cycle specification. 
+    Specify a simple action-perception cycle. Eg, for a cryptoquip
+        puzzle (see notebook document for figures)
+        a. Select puzzle, evaluate clue. This initializes the state
+            of the puzzle, and the state of a translation table.
+        b. Select a simple action that will change the translation
+            table. For instance, "Let's try A = c" will cause
+            all As in the puzzle to be translated into c.
+        c. Propagate the selected action to the puzzle. This changes
+            the state of the puzzle.
+        d. Evaluate the change. If satisfied, repeat the cycle.
+            If not, undo the change and then repeat.
+        e. Continue until all the letters in the puzzle have been 
+            translated.
+    3. Analyze the specified cycle in terms of the LIDA Model. 
+        For instance, in the above cryptoquip example,
+        The puzzle itself is written on a piece of paper in an environment. 
+        The environment also contains more paper, something to write 
+        with, and written versions of the translation table and
+        the current state of the puzzle. For now, we will refer to all
+        of this simply as "the puzzle," but later, we can use 
+        "the puzzle environment" to disambiguate when necessary.
+
+        The current situational model contains a representation of 
+        each of these constituents of the puzzle.  
+
+        During each cycle, an agent senses the puzzle, cogitates, 
+        and selects an action that changes the state of the puzzle.
+        This fulfills the LIDA requirements: 1) The question "What
+        do I do next?" is answered and an action is selected;
+        2) This action affects what the agent will sense during
+        the next cycle; 3) its agenda is to solve the puzzle.
+
+    4.  Apply a "think aloud" procedure to generate hypotheses
+        about how these steps could be accomplished computationally.
+        There are two types of hypotheses:
+        a. Psychological -- these try to answer the question of
+            how a chosen biological model (eg human mind) accomplishes
+            these steps in the cycle;
+        b. Technological -- these try to solve the question of 
+            finding the best, or at least a workable way to
+            accomplish the steps according to certain design
+            constraints.
+        This distinction is important, because ITB can be used to
+        flesh out the LIDA Model, and also to design specific agents.
+        MAX will work along both of these lines, but at times it will 
+        work on both at the same time, and other times it will work 
+        on one and not the other.
+
+
+

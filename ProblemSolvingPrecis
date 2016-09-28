@@ -1,0 +1,25 @@
+Human problem solving
+a. Examples/conceptual models
+    1)  Cryptoquip puzzles
+    2)  Medical diagnosis
+    3)  Other?
+
+b.  Multicyclic nature
+    1)  Most LIDA research so far has focused on single cycle processes. IDA is the only exception and it is 15 years old.
+    2)  Complex problem solving as well as action selection in a complex, dangerous, changing environment require constant sensorimotor
+        activity with highly active cognition making decisions constantly and continually. The LIDA Model terms this multicyclic
+        cognition.
+    3)  Multicyclic cognition relies on
+        A.  Construction of workspace structures by structure building codelets in a profligate manner. The structures are termed
+            "cognitive content" and form the basis of any way in which perception, memory and understanding can influence action selection.
+        B.  Attentional selection of profligately constructed content by attention codelets, determining at each instant a tiny subset of
+            the possible content that will be broadcast to the entire system to effect action selection and learning.
+        C.  The preservation, accumulation, and refinement of structures over multiple action-selection + perception-understanding-     
+            attention cycles. This results in a refinement of the current situational model which allows for increasingly appropriate
+            action selection. In the case of a puzzle, effective multicyclic cognition will lead to a trial solution and eventually, a 
+            correction solution to the puzzle.
+            
+ c. First steps
+    1)  Before we can assemble a multicyclic process, we must develop 
+        A.  (Human-like) strategies for selecting actions that may lead to a solution
+        B.   
