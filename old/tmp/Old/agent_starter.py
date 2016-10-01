@@ -1,8 +1,10 @@
 #!/usr/bin/env python
 
-from lidapy.framework.agent_starter import AgentStarter
-from hello_module import CQ_SensoryMemory
 import traceback
+
+from lidapy.framework.agent_starter import AgentStarter
+
+from tmp.hello_module import CQ_SensoryMemory
 
 if __name__ == '__main__':
 
