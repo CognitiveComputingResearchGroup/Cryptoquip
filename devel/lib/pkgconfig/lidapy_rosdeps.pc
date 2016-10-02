@@ -1,0 +1,8 @@
+prefix=/home/stephen/Development/ccrg/Cryptoquip/devel
+
+Name: lidapy_rosdeps
+Description: Description of lidapy_rosdeps
+Version: 0.0.0
+Cflags: -I/home/stephen/Development/ccrg/Cryptoquip/devel/include
+Libs: -L/home/stephen/Development/ccrg/Cryptoquip/devel/lib 
+Requires: message_runtime

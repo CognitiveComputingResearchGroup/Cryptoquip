@@ -1,0 +1,2 @@
+cqlida:lidapy_rosdeps
+-DCATKIN_DEVEL_PREFIX=/home/stephen/Development/ccrg/Cryptoquip/devel -DCMAKE_INSTALL_PREFIX=/home/stephen/Development/ccrg/Cryptoquip/install -G Unix Makefiles
